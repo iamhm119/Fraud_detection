@@ -30,3 +30,48 @@ This project predicts whether a given financial transaction is **fraudulent** or
 ---
 
 ## 📂 Project Structure
+fraud-detection/
+│── app.py # Streamlit app for fraud prediction
+│── fraud_detection.ipynb # Jupyter notebook for model training
+│── fraud_detection_pipeline.pkl # Saved ML pipeline
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
+
+
+---
+
+## ▶️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/fraud-detection.git
+   cd fraud-detection
+
+2. **Create a virtual environment (recommended)**
+     ```bash
+    python -m venv venv
+    venv\Scripts\activate   # On Windows
+    source venv/bin/activate # On Mac/Linux
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the Streamlit app**
+   ```bash
+   python -m streamlit run app.py
+
+5. Open in browser
+Streamlit will show a local URL like:
+  ```bash
+  Local URL: http://localhost:8501
+
+
+
+
+
+
+
+
+
+
